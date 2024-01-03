@@ -1,0 +1,138 @@
+#bckg{
+    background-image: url("sky.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height:95vh;
+  }
+  
+  
+  .game {
+    width: 600px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: lightblue;
+      animation: infinite;
+      
+    }
+  
+    #h1{
+     display:flex;
+      justify-content: center;
+      color: black;
+    }
+    
+    #headding {
+      margin-left: 650px;
+      color: green;
+    }
+    #dino {
+      width: 50px;
+      height: 50px;
+      background-image: url(sonic1.png);
+      background-size: 50px 50px;
+      position: relative;
+      top: 150px;
+    }
+    
+    .jump {
+      animation: jump 0.3s linear;
+    }
+    
+    @keyframes jump {
+      0% {
+        top: 150px;
+      }
+    
+      30% {
+        top: 130px;
+      }
+    
+      50% {
+        top: 80px;
+      }
+    
+      80% {
+        top: 130px;
+      }
+    
+      100% {
+        top: 150px;
+      }
+    }
+    
+    #cactus {
+      width: 20px;
+      height: 40px;
+      position: relative;
+      top: 110px;
+      left: 580px;
+    
+      background-image: url("potlebi.png");
+      background-size: 20px 40px;
+    
+      animation: block 1s infinite linear;
+    }
+    
+    @keyframes block {
+      0% {
+        left: 580px;
+      }
+    
+      100% {
+        left: -20px;
+      }
+    }
+  
+    #ground{
+      position: relative;
+      width: auto;
+      height: auto;
+      top: 150px;
+      left: 600px;
+      background-image: url("img/ground.jpg");
+      background-size: auto;
+    }
+       body {
+        background-image: url("https://wallpapers.com/images/hd/sonic-senses-blue-photo-cover-4mvq3qtvlf3yarvg.jpg");
+        background-size: cover;
+        margin: 0;
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    
+        
+        
+        
+    }
+   #teqsti{
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     color: red;
+     justify-content: center;
+     text-align: center;
+   }
+   #tamashi{
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+   color: red;
+   position: relative;
+    top:215px; 
+    left: 25%   ;
+    
+   }
+   #score{
+     font-family: sans-serif;
+     color: black;
+   }
+   #Register{
+    width: 200px;
+      padding: 10px;
+      margin: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+   }
